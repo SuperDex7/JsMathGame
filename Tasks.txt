@@ -1,0 +1,9 @@
+Tasks Not In Order
+1: Make it so that if the hard difficulty is chosen the background image changes to this link| https://cdna.artstation.com/p/assets/images/images/047/517/388/original/inkpendude-portal-storm.gif?1647794887
+2: Spread the buttons out and make them look cool or som
+3: Make the buttons WORK!!!
+4: Easy difficulty is only addition and subtraction
+5: Medium adds multiplication
+6: Hard adds division
+7: Idk make it look better
+
