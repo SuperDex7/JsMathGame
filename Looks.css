@@ -4,4 +4,22 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size:cover;
+  
+  
+}
+#gamebox{
+    background-color: #282828;
+    position: absolute;
+    left: 47%;
+    top: 30%;
+} 
+#title{
+    font-size: 60px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#difficulty{
+   display:flex;
+   
 }
