@@ -4,4 +4,26 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size:cover;
+ position: relative;
+     height: 90vh;
+   font-family: Orbitron;
+   
+
+}
+
+#gamebox{
+    background-color: #00000073;
+    position: absolute;
+    left: 37%;
+    top: 40%;
+} 
+#title{
+    font-size: 60px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#difficulty{
+   display:flex;
+   
 }
