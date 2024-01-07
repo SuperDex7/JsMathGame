@@ -6,4 +6,4 @@ Tasks Not In Order
 5: Medium adds multiplication
 6: Hard adds division
 7: Idk make it look better
-8: 
+8: smach \
