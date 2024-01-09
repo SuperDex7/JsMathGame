@@ -86,7 +86,7 @@ input[type=number] {
 }
 
 .start:active {
-    color: #000
+    color: #fffafa
 }
 
 .start:active:after {
