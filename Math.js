@@ -21,6 +21,9 @@ function easyworks() {
     body.style.backgroundImage = 'url(https://cdnb.artstation.com/p/assets/images/images/047/517/381/original/inkpendude-portal-calm.gif?1647794880)';
     difficulty = 2;
   }
+  document.getElementById("Start").onclick = function()
+  {
+  }
   red.addEventListener('click', redworks);
 hard.addEventListener('click', hardworks);
 medium.addEventlistener('click', mediumworks);
