@@ -16,17 +16,42 @@ body{
     position: absolute;
     left: 35%;
     top: 40%;
+    width: 600px;
+    height: 400px;
+    
+    
 } 
 #title{
     font-size: 60px;
-    margin-bottom: 150px;
-    margin-left: 100px;
-    margin-right: 100px;
+    display: flex;
+    justify-content: center;
 }
 #difficulty{
    display:flex;
-   
+   top: 75%;
+position: absolute;
+margin: 20px;
 }
+
+input[type=number] {
+    position: absolute;
+    top: 61%;
+    left: 35%;
+    width: 10em;
+    padding: 0.5em;
+    border: 0.2em solid #187dc0;
+    border-radius: 1em;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+
+  }
+  /* Credit for input: https://codepen.io/sowg/pen/qBXexaZ */
+  input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+    background: red;
+  }
+
 /*button{
     display: inline-flex;
     height: 40px;
