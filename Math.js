@@ -3,28 +3,25 @@ let medium = document.getElementById('medium');
 let hard = document.getElementById('hard');
 let body = document.querySelector('body');
 let title = document.getElementById('title'); 
-let red = document.getElementById('red');
+let start = document.getElementById('startb');
 let difficulty = 0;
-function hardworks() { 
-  body.style.backgroundImage = 'url(https://cdna.artstation.com/p/assets/images/images/047/517/388/original/inkpendude-portal-storm.gif?1647794887)';
-  difficulty = 3;
-}
-//put medium function
-function easyworks() {
-    body.style.backgroundImage = 'url(https://cdnb.artstation.com/p/assets/images/images/047/517/381/original/inkpendude-portal-calm.gif?1647794880)';
-    difficulty = 1;
-  }
-  function redworks() {
-    title.style.color = 'red';
-  }
-  function mediumworks() {
-    body.style.backgroundImage = 'url(https://cdnb.artstation.com/p/assets/images/images/047/517/381/original/inkpendude-portal-calm.gif?1647794880)';
-    difficulty = 2;
-  }
-  document.getElementById("Start").onclick = function()
-  {
-  }
-  red.addEventListener('click', redworks);
-hard.addEventListener('click', hardworks);
-medium.addEventlistener('click', mediumworks);
+ function startworks(){
+easy.style.display = 'block';
+medium.style.display = 'block';
+hard.style.display = 'block';
+start.style.display = 'none';
+start.removeEventListener('click', startworks);
 easy.addEventListener('click', easyworks);
+medium.addEventListener('click', mediumworks);
+hard.addEventListener('click', hardworks);
+ }
+function easyworks(){
+    alert("EASYYY");
+}
+function mediumworks(){
+alert("MEDIUMM");
+}
+function hardworks(){
+    body.style.backgroundImage = 'url(https://cdna.artstation.com/p/assets/images/images/047/517/388/original/inkpendude-portal-storm.gif?1647794887)'
+}
+start.addEventListener('click', startworks);
