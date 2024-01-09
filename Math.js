@@ -3,6 +3,7 @@ let medium = document.getElementById('medium');
 let hard = document.getElementById('hard');
 let body = document.querySelector('body');
 let title = document.getElementById('title'); 
+let start = document.getElementById('Start');
 let red = document.getElementById('red');
 let difficulty = 0;
 function hardworks() { 
