@@ -1,4 +1,5 @@
 let easy = document.getElementById('easy');
+let medium = document.getElementById('medium');
 let hard = document.getElementById('hard');
 let body = document.querySelector('body');
 let title = document.getElementById('title'); 
