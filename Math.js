@@ -19,4 +19,3 @@ function easyworks() {
   red.addEventListener('click', redworks);
 hard.addEventListener('click', hardworks);
 easy.addEventListener('click', easyworks);
-//open
