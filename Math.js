@@ -4,6 +4,7 @@ let hard = document.getElementById('hard');
 let body = document.querySelector('body');
 let title = document.getElementById('title'); 
 let start = document.getElementById('startb');
+let input = document.getElementById('input');
 let difficulty = 0;
  function startworks(){
 easy.style.display = 'block';
@@ -15,8 +16,51 @@ easy.addEventListener('click', easyworks);
 medium.addEventListener('click', mediumworks);
 hard.addEventListener('click', hardworks);
  }
+
+function easymath(){
+    do{
+    let first = Math.floor(Math.random() * 12);
+    let second = Math.floor(Math.random() * 12);
+    let score = 0;
+    let answer
+    let bruh = Math.floor(Math.random() * 2);
+    let guess
+    
+    
+    switch(bruh){
+case 1:
+
+    answer = first + second;
+    title.innerHTML = first + ' + ' + second;
+    guess = input.value;
+    if (answer == guess){
+        score++;
+        alert("good shiiii");
+    } else {
+        alert("bad shiiii");
+    }
+    break;
+    case 2:
+        answer = first - second;
+    title.innerHTML = first + ' - ' + second;
+    guess = input.value;
+    if (answer == guess){
+        score++;
+        alert("good shiiii");
+    } else {
+        alert("bad shiiii");
+    }
+    }
+    
+
+    }while(score < 10)
+}
+
+
+
 function easyworks(){
-    alert("EASYYY");
+    input.style.display = 'block';
+    easymath();
 }
 function mediumworks(){
 alert("MEDIUMM");
