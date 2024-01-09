@@ -1,4 +1,5 @@
 let easy = document.getElementById('easy');
+let medium = document.getElementById('medium');
 let hard = document.getElementById('hard');
 let body = document.querySelector('body');
 let title = document.getElementById('title'); 
@@ -16,6 +17,11 @@ function easyworks() {
   function redworks() {
     title.style.color = 'red';
   }
+  function mediumworks() {
+    body.style.backgroundImage = 'url(https://cdnb.artstation.com/p/assets/images/images/047/517/381/original/inkpendude-portal-calm.gif?1647794880)';
+    difficulty = 2;
+  }
   red.addEventListener('click', redworks);
 hard.addEventListener('click', hardworks);
+medium.addEventListener('click', mediumworks);
 easy.addEventListener('click', easyworks);
