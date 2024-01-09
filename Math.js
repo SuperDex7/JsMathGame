@@ -13,3 +13,4 @@ function easyworks() {
   }
 hard.addEventListener('click', hardworks);
 easy.addEventListener('click', easyworks);
+//open
