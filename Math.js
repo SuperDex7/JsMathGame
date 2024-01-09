@@ -16,6 +16,11 @@ function easyworks() {
   function redworks() {
     title.style.color = 'red';
   }
+  function mediumworks() {
+    body.style.backgroundImage = 'url(https://cdnb.artstation.com/p/assets/images/images/047/517/381/original/inkpendude-portal-calm.gif?1647794880)';
+    difficulty = 2;
+  }
   red.addEventListener('click', redworks);
 hard.addEventListener('click', hardworks);
+medium.addEventlistener('click', mediumworks);
 easy.addEventListener('click', easyworks);
