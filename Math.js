@@ -28,7 +28,7 @@ function easymath(){
     
     
     switch(bruh){
-case 1:
+case 0:
 
     answer = first + second;
     title.innerHTML = first + ' + ' + second;
@@ -40,7 +40,7 @@ case 1:
         alert("bad shiiii");
     }
     break;
-    case 2:
+    case 1:
         answer = first - second;
     title.innerHTML = first + ' - ' + second;
     guess = input.value;
