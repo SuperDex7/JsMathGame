@@ -5,6 +5,8 @@ let body = document.querySelector('body');
 let title = document.getElementById('title'); 
 let start = document.getElementById('startb');
 let input = document.getElementById('input');
+
+
 let difficulty = 0;
  function startworks(){
 easy.style.display = 'block';
@@ -18,6 +20,9 @@ hard.addEventListener('click', hardworks);
  }
 
 function easymath(){
+    easy.style.display = 'none';
+    medium.style.display = 'none';
+    hard.style.display = 'none';
     do{
     let first = Math.floor(Math.random() * 12);
     let second = Math.floor(Math.random() * 12);
