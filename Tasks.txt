@@ -6,7 +6,7 @@ Tasks Not In Order
 5: Medium adds multiplication
 6: Hard adds division
 7: Idk make it look better
-8: Make medium function
+
 9: do switch case thing to pick different difficulties/ if easy is clicked difficulty = 1 so if difficulty = 1 then run a function do send random numbers and a random sign
 10: you can change text with .innerHTML/ Get the id of mathbox(aka where the math will be displayed.) then change the text in there to show the math
 i forget how to do random numbers in javascript but googleable
